@@ -6,7 +6,7 @@
     --envelope-cover: #e6cfa7;
     --shadow-color: rgba(0, 0, 0, 0.2);
     --txt-color: #444;
-    --heart-color: rgb(255, 0, 0);
+    --heart-color: rgba(255, 0, 0, 0);
   }
   body{
     margin: 0;
@@ -82,7 +82,6 @@
     z-index: 4;
     transform: translate(-50%, -20%) rotate(45deg);
     transition: transform 0.5s ease-in-out 1s;
-    box-shadow: 0 1px 6px var(--shadow-color);
     cursor: pointer;
   }
   .heart:before, 
